@@ -1,28 +1,50 @@
 :root{
-    --oranzova:oklch(70.82% 0.1512 61.38)
-    --tmava-cyan:oklch(47.37% 0.0807 203.41)
-    --svetla-cyan:oklch(34.38% 0.0589 192.89)
+    --oranzova:oklch(70.82% 0.1512 61.38);
+    --tmava-cyan:oklch(47.37% 0.0807 203.41);
+    --svetla-cyan:oklch(34.38% 0.0589 192.89);
 
-    --transparentna-biela:hsla(0, 0%, 100%, 0.75)
-    --svetloseda:hsl(0, 0%, 95%)
+    --transparentna-biela:hsla(0, 0%, 100%, 0.75);
+    --svetloseda:hsl(0, 0%, 95%);
+}
+
+h2{
+    font-family: 'Big Shoulders', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
 }
 
 body{
     font-family: 'Big Shoulders', sans-serif;
+    color: var(--transparentna-biela);
 }
 
 p, a{
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
 }
 
 .Sedany{
-
+background-color: var(--oranzova);
 }
 
 .SUVS{
-
+background-color: var(--tmava-cyan);
 }
 
 .Luxury{
-    
+background-color: var(--svetla-cyan);
+}   
+
+section{
+    padding: 3rem;
+}
+
+a {
+    color: var(--transparentna-biela);
+    background-color: var(--transparentna-biela);
+    padding: 1rem;
+    border-radius: 10px;
 }
